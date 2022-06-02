@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/*         
+id > só pode ter um id com o mesmo nome por elemento no documento. Ex: no exercício, só tem um id principal. em html é id e em css é #
+class > pode ter mais de um elemento por documento. em html é claas e em css é .
+
+*/
+
+body {
+    background-color: rgb(160, 212, 160);
+    font-family: Arial, Helvetica, sans-serif;
+    }
+ 
+main {
+    background-color: white;
+    width: 700px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1 {
+    color: rgb(4, 145, 4);
+}
+h1#principal {
+    text-align: center;
+    background-color: rgb(4, 145, 4);
+    color: white;
+}
+
+h2 {
+    color: rgb(27, 100, 27);
+}
+
+.basico {
+    color: rgb(26, 194, 26);
+}
+
+.intermediario{
+    color: rgb(185, 185, 40);
+}
+
+.avancado{
+    color: rgb(199, 46, 46);
+}
+
+p {
+    text-align: justify;
+}
